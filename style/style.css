@@ -21,6 +21,11 @@ button{
     border: none;
     font-size: 20px;
     padding: 15px 28px;
+    cursor: pointer;
+    transition: all 1s;
+}
+button:hover{
+    background-color: #f20034;
 }
 .container{
     width: 75%;
@@ -45,5 +50,81 @@ button{
 }
 .banner .banner-img img{
     width: 100%;
-    vertical-align: middleJ;
+    vertical-align: middle;
+}
+.section-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-heading h2{
+    color:#272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+#featured{
+    padding: 100px 0;
+}
+.section-contain{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    align-items: end;
+}
+.section-contain .flower .flower-img{
+    /* background-color: #A72162; */
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+.section-contain .flower .flower-img img{
+    width: 100%;
+}
+.section-contain .flower .pink {
+    background-color: rgb(167, 33, 98,0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.section-contain .flower .blue {
+    background-color: rgb(5, 151, 160,0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.section-contain .flower .green {
+    background-color: rgb(71, 125, 17,0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.section-contain p{
+    color: #272727;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.resource-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20PX auto;
+    background-color: rgb(39, 39, 39,0.5);
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    height: 200px;
+}
+.resource-data .data{
+    padding: 0px 60px;
+}
+.resource-data .data p{
+    color: #272727;
+    font-weight: 600;
+    line-height: 35px;
+    font-size: 20px;
 }
